@@ -1,1 +1,27 @@
+Основы
+- 
+https://learn.javascript.ru/
 
+Числа
+-- https://learn.javascript.ru/number
+Строки
+-- https://learn.javascript.ru/string
+-- ЕС6 -- https://learn.javascript.ru/es-string
+
+Массивы
+-- https://learn.javascript.ru/array (основы массив)
+-- https://learn.javascript.ru/array-methods#sortirovka-metod-sort-fn (методы)
+-- https://learn.javascript.ru/array-iteration#foreach (перебирающие методы)
+
+Объекты
+-- https://learn.javascript.ru/object
+-- https://learn.javascript.ru/object-for-in (перебирающие методы)
+-- https://learn.javascript.ru/object-reference (передача по сылке)
+-- https://learn.javascript.ru/es-object (объекты и прототипы)
+-- https://learn.javascript.ru/prototype (ооп в прототипном стиле) (__proto__)
+ 
+Деструктуризация
+-- https://learn.javascript.ru/destructuring
+
+Set,Map,WeakSet,WeakMap
+-- https://learn.javascript.ru/set-map
