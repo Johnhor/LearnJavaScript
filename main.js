@@ -92,3 +92,29 @@ console.log(c);
 //Оператор spread (создание нвого массива через него)
 const l = [...[3,4], ...'text'];
 console.log(l);
+
+//Перебор для массивов(Методы)
+//Перебор для объектов(Методы)
+
+//Глобальные объект (примеры замыканий)
+
+function sayHi(name, age){
+  // console.log(greet(name));
+  return function(){
+    console.log(greet(name));
+  }
+
+   function greet(){
+      return chooseAge() + ',' + name;
+   }
+   function chooseAge(){
+     if(age > 18){
+       return 'Hi Mr ';
+     }
+     else{
+       return 'Hi';
+     }
+   }
+}
+var work = sayHi('john', 18);
+
