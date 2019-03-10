@@ -1,4 +1,4 @@
-//Используем метод includesдля поиска   (тема строк и массивов)
+//Используем метод includes для поиска   (тема строк и массивов)
 
 const obj = {
   className: 'open menu'
@@ -17,6 +17,30 @@ addClass(obj,'me');
 addClass(obj,'open');
 console.log(obj.className);
 
+
+//Делаем так же только без includes. Усложняем пробелами в строке. Используем метод перебора (for of)
+
+const obj = {
+  className: 'open      menu'
+}
+
+function addClass(element, word){
+    const words = element.className.split(' ');
+    words.push(word);
+
+    const newObj = {};
+    for(let key of words){
+       newObj[key] = 1;
+    }
+
+    delete newObj[''];
+    element.className = Object.keys(newObj).join(' ');
+
+}
+
+addClass(obj,'me');
+addClass(obj,'for');
+console.log(obj.className);
 
 
 
@@ -57,3 +81,14 @@ const person3 = {
   statusWork: 48,
   __proto__: person
 }
+
+//Создание нового массива с помощью метода concat (старый способ через slice)
+let a = [1,2];
+let b = a.concat(3,4) && a.concat([3,4],100,true,'text');
+console.log(b);
+let c = [1,2].concat([3,4],100,300);
+console.log(c);
+
+//Оператор spread (создание нвого массива через него)
+const l = [...[3,4], ...'text'];
+console.log(l);
