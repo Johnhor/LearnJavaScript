@@ -119,3 +119,15 @@ function sayHi(name, age){
 }
 var work = sayHi('john', 18);
 
+
+//Вложенная функция и вызов через двойные скобки
+
+function calc(a){
+  var func = function(b){
+     console.log(a + b);
+  }
+  return func;
+}
+calc(2)(1);
+calc(4)(-1);
+calc(100)(23);
