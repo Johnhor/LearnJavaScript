@@ -25,3 +25,10 @@ https://learn.javascript.ru/
 
 Set,Map,WeakSet,WeakMap
 -- https://learn.javascript.ru/set-map
+
+Замыкания
+--https://learn.javascript.ru/global-object  (глобальный объект - window)
+--https://learn.javascript.ru/closures (замыкания)
+--https://learn.javascript.ru/scope-new-function ([[Scope]])
+--https://learn.javascript.ru/closures-usage 
+--https://learn.javascript.ru/closures-module
