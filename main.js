@@ -356,3 +356,23 @@ function calc(a){
 calc(2)(1);
 calc(4)(-1);
 calc(100)(23);
+
+
+///////////// Еще пример через двойные скобки
+const sum = function(sum) {
+  const inner = function result(b) {
+    if (b === undefined) {
+      return sum;
+    }
+
+    sum += b;
+
+    return inner;
+  };
+
+  return inner;
+};
+
+const result = sum(3)(5)(2)(6)();
+
+console.log(result);
