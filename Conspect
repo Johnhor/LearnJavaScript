@@ -32,3 +32,5 @@ Set,Map,WeakSet,WeakMap
 --https://learn.javascript.ru/scope-new-function ([[Scope]])
 --https://learn.javascript.ru/closures-usage 
 --https://learn.javascript.ru/closures-module
+
+--DOM
