@@ -34,3 +34,5 @@ Set,Map,WeakSet,WeakMap
 --https://learn.javascript.ru/closures-module
 
 --DOM
+Коллекции
+-- childNodes
