@@ -36,7 +36,7 @@ Set,Map,WeakSet,WeakMap
 --DOM
 Коллекции
 -- childNodes
-Есть 6 основных методов поиска элементов DOM
+Есть 6 основных методов поиска элементов DOM (поисковые методы)
  getElementById()
  getElementsByName()
  getElementsByTagName()
