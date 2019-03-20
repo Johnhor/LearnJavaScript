@@ -43,3 +43,7 @@ Set,Map,WeakSet,WeakMap
  getElementsBYClassName()
  querySelector()
  querySelectorAll()
+ 
+ 
+--Введение в браузерные события
+--
