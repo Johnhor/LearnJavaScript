@@ -36,3 +36,10 @@ Set,Map,WeakSet,WeakMap
 --DOM
 Коллекции
 -- childNodes
+Есть 6 основных методов поиска элементов DOM
+ getElementById()
+ getElementsByName()
+ getElementsByTagName()
+ getElementsBYClassName()
+ querySelector()
+ querySelectorAll()
